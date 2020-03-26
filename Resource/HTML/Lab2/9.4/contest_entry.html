@@ -1,0 +1,72 @@
+<!DOCTYPE html >
+<html>
+<head>
+  <meta charset="utf-8" >
+   <title>Contest Entry Form</title>
+   <style type="text/css">
+      ol, ul { 
+     list-style-type: none;
+      }
+   </style>
+</head>
+
+<body>
+
+<h1>&ldquo;Pimp My Shoes&rdquo; Contest Entry Form</h1>
+
+<p>Want to trade in your old sneakers for a custom pair of Forcefields? Make a case for why your shoes have <em>got</em> to go and you may be one of ten lucky winners.</p>
+
+<form action="https://www.learningwebdesign.com/contest.php" method="post">
+<fieldset>
+<legend><p>Contest Entry Information</p></legend>
+
+<ul>
+<li><label for="form-name">Name: </label><input type="text" name="name" id="form-name" ></li>
+<li>Email: <input type="email" name="email"></li>
+<li>Phone: <input type="tel" name="phone"></li><br>
+<li>My shoes are SO old...<br>
+    <textarea name="story" rows="4" cols="60" maxlength="300" placeholder="No more than 300 characters long"></textarea></li>
+</ul>
+
+</fieldset>
+<h2>Design your custom Forcefields:</h2>
+<fieldset>
+<legend><p>Custom Shoe Design</p></legend>
+<fieldset>
+<legend><p>Color <em>(choose one)</em>:</p></legend>
+  <ul>
+    <li><label><input type="radio" name="color" value="red"> Red</label></li>
+    <li><input type="radio" name="color" value="blue"> Blue</li>
+    <li><input type="radio" name="color" value="black"> Black</li>
+    <li><input type="radio" name="color" value="silver"> Silver</li>
+  </ul>
+</fieldset>
+<fieldset>
+<legend><p>Features <em>(Choose as many as you want)</em></p></legend>
+    <ul>
+        <li><input type="checkbox" name="features[]" value="laces"> Sparkley laces</li>
+        <li><input type="checkbox" name="features[]" value="logo" checked> Metallic logo</li>
+        <li><input type="checkbox" name="features[]" value="heels"> Light-up heels</li>
+        <li><input type="checkbox" name="features[]" value="mp3"> MP3-enabled</li>
+    </ul>
+</fieldset>
+<fieldset>
+<legend><p>Size</p></legend>
+<p>Sizes reflect standard men's sizes: <select name="Size" size="1">
+  <option value="5" selected>5</option>
+  <option value="6" >6</option>
+  <option value="7" >7</option>
+  <option value="8" >8</option>
+  <option value="9" >9</option>
+  <option value="10" >10</option>
+  <option value="11" >11</option>
+  <option value="12" >12</option>
+  <option value="13" >13</option>
+</select>
+</p>
+</fieldset>
+</fieldset>
+<p><input type="submit" value="Pimp my shoes!">     <input type="reset" value="Reset"></p>
+</form>
+</body>
+</html>
