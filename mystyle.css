@@ -1,32 +1,36 @@
 body{
     margin: 0 10%;
-    background-color:beige;
     font-size: medium;
+    background:  url(images/galaxy.jpg) no-repeat center top fixed;
 }
 h1{
     text-align: center;
     font-style:italic;
-    color: rgb(132, 0, 255);
-    text-shadow: .1em .1em .2em lightblue;
+    color: rgb(167, 75, 253);
+    font-size: xx-large;
+    text-shadow: .1em .1em .2em lightcoral;
 }
 h2{
     font-family: Georgia, serif;
-    text-shadow: .1em .1em .2em lightslategray;
-    color: purple;
+    text-shadow: .1em .1em .2em lightyellow;
+    color: rgb(255, 29, 255);
 }
 h3{
     text-align: center;
     letter-spacing: .1em;
-    color: rgb(252, 40, 2);
+    color: red;
+    font-size: xx-large;
+    font-weight: bold;
+    text-shadow: .1em .1em .2em lightseagreen;
 }
 a {
     font-size: larger;
     text-decoration: none;
-    color: black;
+    color: rgba(255, 255, 255, .5);
     font-weight: bold;
 }
 a:visited{
-    color: gray;
+    color: rgb(17, 16, 16);
 }
 a:hover{
     color: #c700f2;
