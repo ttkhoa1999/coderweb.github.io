@@ -1,0 +1,38 @@
+body{
+    margin: 0 10%;
+    background-color:beige;
+    font-size: medium;
+}
+h1{
+    text-align: center;
+    font-style:italic;
+    color: rgb(132, 0, 255);
+    text-shadow: .1em .1em .2em lightblue;
+}
+h2{
+    font-family: Georgia, serif;
+    text-shadow: .1em .1em .2em lightslategray;
+    color: purple;
+}
+h3{
+    text-align: center;
+    letter-spacing: .1em;
+    color: rgb(252, 40, 2);
+}
+a {
+    font-size: larger;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+a:visited{
+    color: gray;
+}
+a:hover{
+    color: #c700f2;
+    background-color: #fff;
+}
+a:active{
+    background-color: #fff;
+    color:#ff00ff;
+}
