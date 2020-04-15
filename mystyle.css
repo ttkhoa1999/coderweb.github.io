@@ -6,9 +6,9 @@ body{
 h1{
     text-align: center;
     font-style:italic;
-    color: rgb(167, 75, 253);
+    color: rgb(4, 0, 253);
     font-size: xx-large;
-    text-shadow: .1em .1em .2em lightcoral;
+    text-shadow: .1em .1em .2em rgb(255, 66, 66);
 }
 h2{
     font-family: Georgia, serif;
@@ -19,19 +19,17 @@ h3{
     text-align: center;
     letter-spacing: .1em;
     color: red;
-    font-size: xx-large;
+    font-size: x-large;
     font-weight: bold;
     text-shadow: .1em .1em .2em lightseagreen;
 }
 a {
     font-size: larger;
     text-decoration: none;
-    color: rgba(255, 255, 255, .5);
+    color: black;
     font-weight: bold;
 }
-a:visited{
-    color: rgb(17, 16, 16);
-}
+
 a:hover{
     color: #c700f2;
     background-color: #fff;
