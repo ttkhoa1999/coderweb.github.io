@@ -1,32 +1,33 @@
 body{
     margin: 0 10%;
     font-size: medium;
-    background:  url(images/galaxy.jpg) no-repeat center top fixed;
+    background:  url(images/k.jpg) no-repeat center top fixed;
+    background-size: 1800px;
 }
 h1{
     text-align: center;
     font-style:italic;
-    color: rgb(4, 0, 253);
+    color: rgb(53, 50, 255);
     font-size: xx-large;
-    text-shadow: .1em .1em .2em rgb(255, 66, 66);
+    text-shadow: .1em .1em .2em rgb(145, 138, 138);
 }
 h2{
     font-family: Georgia, serif;
     text-shadow: .1em .1em .2em lightyellow;
-    color: rgb(255, 29, 255);
+    color: rgb(255, 0, 255);
 }
 h3{
     text-align: center;
     letter-spacing: .1em;
-    color: red;
+    color: #fd0707;
     font-size: x-large;
     font-weight: bold;
-    text-shadow: .1em .1em .2em lightseagreen;
+    text-shadow: .1em .1em .2em rgb(31, 29, 29);
 }
 a {
     font-size: larger;
     text-decoration: none;
-    color: black;
+    color: white;
     font-weight: bold;
 }
 
@@ -37,4 +38,8 @@ a:hover{
 a:active{
     background-color: #fff;
     color:#ff00ff;
+}
+ol, il{
+    color: white;
+    font-size: large;
 }
