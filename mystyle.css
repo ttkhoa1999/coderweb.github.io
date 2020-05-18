@@ -1,7 +1,10 @@
 body{
     margin: 0 10%;
     font-size: medium;
-    background:  url(images/k.jpg) no-repeat center top fixed;
+    background:  url(images/k.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
     background-size: 1800px;
 }
 h1{
@@ -23,7 +26,7 @@ h3{
     font-style: oblique;
     font-size: x-large;
     font-weight: bold;
-    text-shadow: .1em .1em .2em rgb(31, 29, 29);
+    text-shadow: .1em .1em .2em rgb(186, 3, 241);
 }
 a {
     font-size: larger;
