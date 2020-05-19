@@ -1,11 +1,11 @@
 body{
-    margin: 0 10%;
     font-size: medium;
-    background:  url(images/k.jpg);
+    background:  url(images/4.jpg);
     background-repeat: no-repeat;
     background-position: center top;
     background-attachment: fixed;
-    background-size: 1800px;
+    background-size: cover;
+    height: 100%;
 }
 h1{
     text-align: center;
@@ -14,11 +14,7 @@ h1{
     font-size: xx-large;
     text-shadow: .1em .1em .2em rgb(145, 138, 138);
 }
-h2{
-    font-family: Georgia, serif;
-    text-shadow: .1em .1em .2em lightyellow;
-    color: rgb(255, 0, 255);
-}
+
 h3{
     text-align: center;
     letter-spacing: .1em;
@@ -43,7 +39,67 @@ a:active{
     background-color: #fff;
     color:#ff00ff;
 }
-ol, il{
+ol li{
     color: white;
     font-size: large;
 }
+
+.nav {
+    overflow: hidden;
+ }
+.nav ul {
+    list-style:none;
+    padding: 0;
+    margin: 0 30%; 	
+ } 
+ .nav ul li {
+    font-weight: normal;
+    text-transform: uppercase;
+    float: left;   
+ }
+ .nav ul li a { 	
+   text-decoration: none;
+   display: inline-block;
+   font-family: Georgia, serif;
+   text-shadow: .1em .1em .2em lightyellow;
+   color: rgb(255, 0, 255);
+   padding: .5em; 	
+   border: 1px solid #ffffff; 
+   border-radius: .5em;	
+   margin: .25em; 
+ }
+ footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    text-shadow: .1em .1em .2em rgb(186, 3, 241);
+ }
+.contact p{
+     font-size: large;
+     text-transform: uppercase;
+     padding-top: 2%;
+     border-top: 1px solid white;
+ }
+ .footer-content {
+    overflow: hidden;
+ }
+.footer-content ul {
+    list-style:none;
+    padding: 0;
+    margin: 0 40%;	
+ } 
+ .footer-content ul li {
+    font-weight: normal;
+    float: left;   
+ }
+ .footer-content ul li a { 	
+   text-decoration: none;
+   display: inline-block;
+   font-family: Georgia, serif;
+   color: rgb(206, 0, 0);
+   padding: .5em; 	
+   border-radius: .5em;	
+ }   
+ 
