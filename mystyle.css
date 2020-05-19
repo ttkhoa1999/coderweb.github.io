@@ -67,6 +67,28 @@ ol li{
    border-radius: .5em;	
    margin: .25em; 
  }
+.contain{
+}
+ .contain ul{
+    color: white;
+    list-style: none;
+ }
+ .contain h1{
+    padding-top: 2%;
+    border-top: 1px solid white;
+    font-style: normal;
+    color: rgb(235, 162, 5);
+    text-transform: uppercase;
+    font-size: 55px;
+ }
+ .contain p{
+    color: white;
+    text-shadow: .1em .1em .2em rgb(8, 216, 216);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 40px;
+ }
  footer {
     position: relative;
     bottom: 0;
