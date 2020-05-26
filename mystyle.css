@@ -1,3 +1,4 @@
+
 body{
     font-size: medium;
     background:  url(images/4.jpg);
@@ -67,8 +68,7 @@ ol li{
    border-radius: .5em;	
    margin: .25em; 
  }
-.contain{
-}
+
  .contain ul{
     color: white;
     list-style: none;
